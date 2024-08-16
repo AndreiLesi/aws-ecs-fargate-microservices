@@ -40,12 +40,12 @@ curl -X POST http://localhost/users -H "Content-Type: application/json" -d '{"na
 
 Add a Product
 ```bash
-`curl -X POST http://localhost:81/products -H "Content-Type: application/json" -d '{"name": "Product1", "price": 10.99}'`
+curl -X POST http://localhost:81/products -H "Content-Type: application/json" -d '{"name": "Product1", "price": 10.99}'
 ```
 
 Add a Order
 ```bash
-`curl -X POST http://localhost:82/orders -H "Content-Type: application/json" -d '{"user_id": 1, "product_id": 1, "quantity": 2}'`
+curl -X POST http://localhost:82/orders -H "Content-Type: application/json" -d '{"user_id": 1, "product_id": 1, "quantity": 2}'
 ````
 
 Check If data is in database
